@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".owl-carousel").owlCarousel({loop:!0,margin:10,center:!0,autoWidth:!0,responsiveClass:!0,responsive:{0:{items:1,nav:!0},960:{items:4,nav:!0},1280:{items:7,nav:!0}}})}),$(function(){console.log("main.js")});
+$(document).ready(function(){$(".owl-carousel").owlCarousel({loop:!0,margin:10,center:!0,autoWidth:!0,responsiveClass:!0,dots:!1,responsive:{420:{items:1,nav:!0},960:{items:3,nav:!0},1280:{items:5,nav:!0}}})}),$(function(){console.log("main.js")});
