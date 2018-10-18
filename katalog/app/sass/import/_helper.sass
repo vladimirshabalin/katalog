@@ -1,0 +1,38 @@
+.helper
+  width: $tablet
+  background-color: $light
+  border: 1px solid $border
+  text-align: center
+  h1
+    color: $text
+    a
+      color: $text
+      &:hover
+        border-bottom: 1px solid $color
+    &:first-letter
+      text-transform: uppercase
+  h2
+    color: $text-light
+    font-weight: normal
+    &:first-letter
+      text-transform: uppercase
+
+.menu-helper
+  display: flex
+  justify-content: space-around
+  margin: $medium 0
+  li
+    cursor: pointer
+    width: 180px
+    border: 1px solid $border
+    border-radius: 10px
+    padding: $short
+    i
+      display: block
+      font-size: 30px
+      margin: $short 0
+    p
+      margin: $short 0
+      &:first-letter
+        text-transform: uppercase
+

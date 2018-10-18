@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4e4f57b7-bfc6-40f4-a99f-1994522fd9d4" name="mysite" url="http://server210.hosting.reg.ru//var/www/u0578345/data/www/katalog-skidok.online">
+        <fileTransfer host="server210.hosting.reg.ru" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

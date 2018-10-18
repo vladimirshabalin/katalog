@@ -1,0 +1,9 @@
+{
+  "name": "katalog-skidok",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0",
+    "owl.carousel": "OwlCarousel2#^2.3.4"
+  }
+}

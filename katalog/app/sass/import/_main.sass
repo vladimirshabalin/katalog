@@ -1,0 +1,88 @@
+// Ширина
+$desktop: 1280px
+$tablet: 960px
+$mobile: 360px
+
+// Цвета
+$light: #ffffff
+$light-add: #fafffa
+$light-dark: #f5faf5
+$light-dark-add: #ebf0eb
+$dark: #3e3e3c
+$dark-add: #2F2F2D
+$dark-light: #9F9F9C
+$dark-light-add: #9F9F9B
+$color: #228d57
+$color-dark: #2E6A4B
+$color-dark-add: #0B5C33
+$color-light: #55C68D
+$color-light-add: #a9ffd4
+$border: #dce0e5
+$border-dark: #A7A9AC
+$border-dark-add: #7E7F81
+$border-light: #EDEFF2
+$border-light-add: #EBEEF2
+$text: #555555
+$text-dark: #404040
+$text-light: #AAAAAA
+
+// Отступ
+$short: 10px
+$medium: 20px
+$long: 40px
+
+// Разное
+$main-font: 'PT Sans', sans-serif
+
+body
+  font-family: $main-font
+  background-color: $light-dark
+  color: $dark-light
+
+a
+  text-decoration: none
+
+ul
+  list-style-type: none
+
+p, ul
+  margin: 0
+  padding: 0
+
+h1
+  color: $dark
+  font-size: 28px
+  margin: 20px 0
+
+h2
+  color: $dark-light
+  font-size: 18px
+  margin: 15px 0
+
+input, a
+  outline: none
+
+.wrapper-content
+  margin-top: 60px
+
+.container
+  min-width: $tablet
+  max-width: $desktop
+  margin: 0 auto
+
+.flex
+  display: flex
+
+.flex-jc-sb
+  display: flex
+  justify-content: space-between
+
+.flex-jc-sa
+  display: flex
+  justify-content: space-around
+
+.mt
+  margin-top: 60px
+
+.mt-medium
+  margin-top: $medium

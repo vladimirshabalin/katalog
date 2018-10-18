@@ -1,0 +1,24 @@
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true,
+                loop:true
+            },
+            960:{
+                items:4,
+                nav:true,
+                loop:true
+            },
+            1280:{
+                items:5,
+                nav:true,
+                loop:true
+            }
+        }
+    });
+});

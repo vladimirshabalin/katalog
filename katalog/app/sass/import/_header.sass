@@ -1,0 +1,79 @@
+header
+  position: fixed
+  top: 0
+  background-color: $dark
+  width: 100%
+  box-shadow: 0 4px 8px -3px rgba(17, 17, 17, .06)
+
+.header-content
+  margin: 10px 0
+  &-left
+    width: $mobile
+
+.logo
+  display: flex
+  width: fit-content
+  height: 40px
+  .logo-icon
+    color: $color-light
+    font-size: 30px
+    padding: 5px 20px
+  .logo-text
+    line-height: 40px
+    color: $light
+    text-transform: uppercase
+    font-weight: 700
+    padding-right: 20px
+
+.logo-header
+  border-right: 1px solid $border
+
+.header-city
+  width: fit-content
+  color: $dark-light
+  p
+    line-height: 40px
+    padding: 0 20px
+    text-transform: capitalize
+    font-weight: 700
+  &:hover
+    color: $color
+
+.header-search
+  width: 500px
+  input
+    background-color: $dark-add
+    box-sizing: border-box
+    height: 40px
+    width: 100%
+    border: 1px solid $border-dark-add
+    padding-left: 20px
+    color: $dark
+    &:focus
+      background-color: $light-dark
+  i
+    box-sizing: border-box
+    line-height: 40px
+    background-color: $dark
+    color: $border-dark
+    border: 1px solid $border-dark-add
+    font-size: 16px
+    height: 40px
+    padding: 0 15px
+    margin-left: -1px
+    &:hover
+      color: $color-light
+
+.header-add-btn
+  border: 1px solid $border-dark-add
+  height: 40px
+  line-height: 40px
+  padding: 0 20px
+  color: $light
+  text-transform: capitalize
+  background-color: $dark
+  box-sizing: border-box
+  &:hover
+    color: $color-light
+    //border: 1px solid $dark-add
+    background-color: $dark-add
