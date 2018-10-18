@@ -1,7 +1,7 @@
 header
   position: fixed
   top: 0
-  background-color: $dark
+  background-color: $light
   width: 100%
   box-shadow: 0 4px 8px -3px rgba(17, 17, 17, .06)
 
@@ -15,12 +15,12 @@ header
   width: fit-content
   height: 40px
   .logo-icon
-    color: $color-light
+    color: $text-light
     font-size: 30px
     padding: 5px 20px
   .logo-text
     line-height: 40px
-    color: $light
+    color: $text-dark
     text-transform: uppercase
     font-weight: 700
     padding-right: 20px
@@ -30,7 +30,7 @@ header
 
 .header-city
   width: fit-content
-  color: $dark-light
+  color: $text-light
   p
     line-height: 40px
     padding: 0 20px
@@ -42,11 +42,11 @@ header
 .header-search
   width: 500px
   input
-    background-color: $dark-add
+    background-color: $light
     box-sizing: border-box
     height: 40px
     width: 100%
-    border: 1px solid $border-dark-add
+    border: 1px solid $border
     padding-left: 20px
     color: $dark
     &:focus
@@ -54,9 +54,9 @@ header
   i
     box-sizing: border-box
     line-height: 40px
-    background-color: $dark
+    background-color: $border
     color: $border-dark
-    border: 1px solid $border-dark-add
+    border: 1px solid $border
     font-size: 16px
     height: 40px
     padding: 0 15px
@@ -65,15 +65,15 @@ header
       color: $color-light
 
 .header-add-btn
-  border: 1px solid $border-dark-add
+  border: 1px solid $color-light
   height: 40px
   line-height: 40px
   padding: 0 20px
-  color: $light
+  color: $color-light
   text-transform: capitalize
-  background-color: $dark
+  background-color: $light
   box-sizing: border-box
   &:hover
-    color: $color-light
+    color: $light
     //border: 1px solid $dark-add
-    background-color: $dark-add
+    background-color: $color-light

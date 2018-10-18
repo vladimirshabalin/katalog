@@ -54,7 +54,7 @@ input, a {
 header {
   position: fixed;
   top: 0;
-  background-color: #3e3e3c;
+  background-color: #ffffff;
   width: 100%;
   box-shadow: 0 4px 8px -3px rgba(17, 17, 17, 0.06); }
 
@@ -68,12 +68,12 @@ header {
   width: fit-content;
   height: 40px; }
   .logo .logo-icon {
-    color: #55C68D;
+    color: #AAAAAA;
     font-size: 30px;
     padding: 5px 20px; }
   .logo .logo-text {
     line-height: 40px;
-    color: #ffffff;
+    color: #404040;
     text-transform: uppercase;
     font-weight: 700;
     padding-right: 20px; }
@@ -83,7 +83,7 @@ header {
 
 .header-city {
   width: fit-content;
-  color: #9F9F9C; }
+  color: #AAAAAA; }
   .header-city p {
     line-height: 40px;
     padding: 0 20px;
@@ -95,11 +95,11 @@ header {
 .header-search {
   width: 500px; }
   .header-search input {
-    background-color: #2F2F2D;
+    background-color: #ffffff;
     box-sizing: border-box;
     height: 40px;
     width: 100%;
-    border: 1px solid #7E7F81;
+    border: 1px solid #dce0e5;
     padding-left: 20px;
     color: #3e3e3c; }
     .header-search input:focus {
@@ -107,9 +107,9 @@ header {
   .header-search i {
     box-sizing: border-box;
     line-height: 40px;
-    background-color: #3e3e3c;
+    background-color: #dce0e5;
     color: #A7A9AC;
-    border: 1px solid #7E7F81;
+    border: 1px solid #dce0e5;
     font-size: 16px;
     height: 40px;
     padding: 0 15px;
@@ -118,17 +118,17 @@ header {
       color: #55C68D; }
 
 .header-add-btn {
-  border: 1px solid #7E7F81;
+  border: 1px solid #55C68D;
   height: 40px;
   line-height: 40px;
   padding: 0 20px;
-  color: #ffffff;
+  color: #55C68D;
   text-transform: capitalize;
-  background-color: #3e3e3c;
+  background-color: #ffffff;
   box-sizing: border-box; }
   .header-add-btn:hover {
-    color: #55C68D;
-    background-color: #2F2F2D; }
+    color: #ffffff;
+    background-color: #55C68D; }
 
 .helper {
   width: 960px;
@@ -196,13 +196,19 @@ header {
     padding: 0 10px; }
 
 .menu-slider {
-  padding: 20px 0; }
+  padding: 20px 0;
+  background-color: #3e3e3c;
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  overflow-x: hidden; }
 
 .menu-slider-item {
   text-align: center;
   border: 1px solid #dce0e5;
   padding: 10px 0;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  width: 246px; }
   .menu-slider-item a i {
     display: block;
     position: relative;
